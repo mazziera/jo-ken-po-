@@ -26,7 +26,8 @@ const escolhaMaquina = () => {
 } 
 
 
-const jogandoOJogo = (jogador, maquina) => {
+const jogandoOJogo = (jogador, maquina) => {    
+    const resultadoMaquina = document.querySelector('.jogada-maquina');
     const resultado = document.querySelector('.resultado');
 
     console.log(`Jogador: ${jogador} / Maquina: ${maquina}`);
@@ -79,4 +80,6 @@ const jogandoOJogo = (jogador, maquina) => {
         placarJogador1.innerHTML = '0'
     }
     
+    resultadoMaquina.innerHTML = `Serina escolheu: ${maquina}`;
+    resultadoMaquina.style.color = 'green'
 }
