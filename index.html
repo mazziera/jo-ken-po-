@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jo-Ken-Pô</title>
+    <link rel="shortcut icon" href="./src/imagens/logo.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="./src/css/styles.css">
+
+    <script src="index.js" defer></script>
+
+</head>
+
+<body>
+    <div class="container-principal">
+
+        <h1>Jo-Ken-Po!</h1>
+
+        <div class="botoes">
+
+            <button id="pedra" onclick="jogadorClicou('pedra')"> &#x1F44A;&#x1F3FC; </button>
+
+            <button id="papel" onclick="jogadorClicou('papel')"> &#x1F590;&#x1F3FC; </button>
+
+            <button id="tesoura" onclick="jogadorClicou('tesoura')"> &#x270C;&#x1F3FC;</button>
+        </div>
+
+        <p class="resultado"></p>
+
+        <p id="pontuacao-jogador-1">Sua pontuação: <span id="placar-jogador-1"> 0 </span></p>
+
+        <p id="pontuacao-IA"> Serina: <span id="placar-maquina"> 0</span></p>
+    </div>
+
+    <audio src="./src/audio/Steamboat - Mini Vandals.mp3" controls="true" autoplay loop></audio>
+
+</body>
+
+</html>
