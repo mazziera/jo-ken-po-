@@ -1,6 +1,6 @@
 # jo-ken-po
 
-![](./src/design/preview-desktop.png)
+![](./src/design/preview-jokenpo-desktop.png)
 
 ## Sumário
 
@@ -28,7 +28,7 @@ Os usuários devem ser capazes de:
 
 ### Screenshot
 
-![](./src/design/pre-visualizacao-readme.gif)
+![](./src/design/jo-ken-po-game.gif)
 
 
 
