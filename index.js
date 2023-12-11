@@ -77,9 +77,9 @@ const jogandoOJogo = (jogador, maquina) => {
         placarMaquina.innerHTML = '0';
 
         numeroPlacarJogadorUm = 0;
-        placarJogador1.innerHTML = '0'
+        placarJogador1.innerHTML = '0';
     }
     
     resultadoMaquina.innerHTML = `Serina escolheu: ${maquina}`;
-    resultadoMaquina.style.color = 'green'
+    resultadoMaquina.style.color = 'green';
 }
